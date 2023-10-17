@@ -1,26 +1,32 @@
-# **Topic Summary**
-### Store a variable
+## **Topic Summary**
+Store a variable
+```
 const a = 3;
-
-### Interpolate string
+```
+Interpolate string
+```
 const a = "World";
 const b = `Hello ${a}`;
-
-### Mutable Let
+```
+Mutable Let
+```
 let a =3;
 a = 5;
-
-### Functions
+```
+Functions
+```
 function name(){
     definition;
     return x;
 }
-
-### Math function
+```
+Math function
+```
 Math.floor(x);
 Math.random();
-
-### Else If
+```
+Else If
+```
 if(firstCondition) {
     // firstCondition is true
 }
@@ -30,16 +36,16 @@ else if (otherCondition) {
 else {
     // neither condition is true
 }
-
-### While Loop
+```
+While Loop
+```
 while(true) {
     if(a > 2) {
         // exit the loop
         break;
     }
 }
+```
 
-
-# **More Info**
-### Math Methods Documentation
-[Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#Methods)
+## **More Info**
+**Math Methods Documentation:** [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#Methods)
