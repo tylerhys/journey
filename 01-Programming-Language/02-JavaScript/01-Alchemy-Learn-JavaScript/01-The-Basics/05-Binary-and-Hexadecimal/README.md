@@ -1,8 +1,2 @@
-## **Topic Summary**
-Topic
-```
-code
-```
-
-## **More Info**
-**Documentation:** [Link](https://fake.link)
+## **Topic Summary Binary and Hexadecimals**
+Refer to the PDFs attached.
