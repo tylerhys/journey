@@ -8,7 +8,14 @@ data = pandas.read_csv(INPATH)
 nato_dict = {row.letter:row.code for (index,row) in data.iterrows()}
 
 # list of letter from input of word
-word = [letter for letter in input("Enter a word: ").upper()]
-nato_word = [nato_dict[letter] for letter in word ]
+def get_phonetic():
+    word = [letter for letter in input("Enter a word: ").upper()]
+    try:
+        nato_word = [nato_dict[letter] for letter in word ]
+    except KeyError:
+        print("Sorry, only letters in the alphabet please...")
+        get_phonetic()
+    else:   
+        print(nato_word)
 
-print(nato_word)
+get_phonetic()
