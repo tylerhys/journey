@@ -13,3 +13,13 @@ Work Flow
 10. Add networks flag to hardhat.config.js, add your Alchemy RPC URL under url and your testnet private key under accounts
 11. Set up your scripts and contracts, then deploy in a flash!
 ```
+
+```
+npm install --save-dev @nomiclabs/hardhat-etherscan
+require("@nomiclabs/hardhat-etherscan");
+
+npm install --save-dev @nomiclabs/hardhat-ethers ethers
+require("@nomiclabs/hardhat-ethers");
+
+npx hardhat verify --network goerli --contract contracts/GoofyGoober.sol:GoofyGoober 0x0E27700DA2a01978972164FB225397b753Be2730
+```
